@@ -398,7 +398,7 @@
 
 #subSection41 {
     float: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
     width: 218.94px;
     height: auto;
     text-align: right;
@@ -422,7 +422,7 @@
 
 #subSection31 {
     float: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
     width: 218.94px;
     height: auto;
     text-align: right;
@@ -445,7 +445,7 @@
 
 #subSection21 {
     float: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
     width: 218.94px;
     height: auto;
     text-align: right;
@@ -469,14 +469,14 @@
 
 #subSection11 {
     float: right;
-    font-size: 0.9em;
+    font-size: 0.8em;
     width: 218.94px;
     height: auto;
     text-align: right;
     font-weight: 700;
     line-height: 1em;
     margin-left: 0px;
-    margin-top: 27px;
+    margin-top: 31px;
     clear: none;
     min-height: 18px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
@@ -491,8 +491,8 @@
     color: rgb(182, 182, 182);
 }
 
-#subSection11.threeItems {margin-top:47px;}
-#subSection11.twoItems {margin-top:67px;}
+#subSection11.threeItems {margin-top:55px;}
+#subSection11.twoItems {margin-top:79px;}
 
 #text {
     float: right;
@@ -501,8 +501,8 @@
     height: auto;
     text-align: left;
     font-weight: 700;
-    line-height: 1em;
-    margin: 105px 0px 0px;
+    line-height: 1.3em;
+    margin: 92px 0px 0px;
     clear: none;
     min-height: 0px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
@@ -723,12 +723,13 @@
     margin-right: 6.135204%;
 }
 
-#textspan {
+#principle-content p {
     float: none;
     font-size: 1em;
     line-height: 1.4em;
     font-family: warnock-pro;
     margin-bottom: 0px;
+    margin-bottom: 1em;
 }
 
 #photo {
@@ -874,9 +875,13 @@
     z-index:250;
 }
 
-.selected {
+#nav .selected {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);    
+}
+
+#subSections .selected {
+    color: black;
 }
 
 @media only screen and (max-width: 699px) {
@@ -1052,6 +1057,7 @@
 
     #subSection4 {
         width: 50%;
+        border-right: none;
     }
 
     #subSection1 {
@@ -1060,6 +1066,7 @@
 
     #subSection2 {
         width: 50%;
+        border-right:none;
     }
 
     #submasthead {
