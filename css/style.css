@@ -64,7 +64,7 @@
     z-index:1000;
 }
 
-#about {
+.about {
     float: left;
     font-size: 1em;
     width: 16.678365%;
@@ -80,27 +80,27 @@
     letter-spacing: 0.15em;
 }
 
-#about:hover {
+.about:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#about:active {
+.about:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#accolades:hover {
+.accolades:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#accolades:active {
+.accolades:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#accolades {
+.accolades {
     float: left;
     font-size: 1em;
     width: 16.678365%;
@@ -116,17 +116,17 @@
     letter-spacing: 0.15em;
 }
 
-#media:hover {
+.media:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#media:active {
+.media:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#media {
+.media {
     float: left;
     font-size: 1em;
     width: 16.608174%;
@@ -142,17 +142,17 @@
     letter-spacing: 0.15em;
 }
 
-#writing:hover {
+.writing:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#writing:active {
+.writing:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#writing {
+.writing {
     float: left;
     font-size: 1em;
     width: 16.678365%;
@@ -168,17 +168,17 @@
     letter-spacing: 0.15em;
 }
 
-#programs:hover {
+.programs:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#programs:active {
+.programs:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#programs {
+.programs {
     float: left;
     font-size: 1em;
     width: 16.678365%;
@@ -194,17 +194,17 @@
     letter-spacing: 0.15em;
 }
 
-#products:hover {
+.products:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#products:active {
+.products:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#products {
+.products {
     float: left;
     font-size: 1em;
     width: 16.678365%;
@@ -365,7 +365,7 @@
     visibility: hidden;
 }
 
-#about:focus {
+.about:focus {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
@@ -394,6 +394,7 @@
     border-bottom-style: solid;
     bottom: 0px;
 }
+
 
 #subSection41 {
     float: right;
@@ -489,6 +490,9 @@
     margin-right: 0%;
     color: rgb(182, 182, 182);
 }
+
+#subSection11.threeItems {margin-top:47px;}
+#subSection11.twoItems {margin-top:67px;}
 
 #text {
     float: right;
@@ -757,7 +761,7 @@
     clear: both;
     width: 28.667092%;
     margin-right: 0px;
-    background-color: rgb(183, 255, 230);
+    /*background-color: rgb(183, 255, 230);*/
 }
 
 #toplinks {
@@ -870,6 +874,11 @@
     z-index:250;
 }
 
+.selected {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);    
+}
+
 @media only screen and (max-width: 699px) {
 
     #nav {
@@ -887,7 +896,7 @@
         top:-192px;
     }
 
-    #about {
+    .about {
         width: 33.199884%;
         height: 63px;
         margin: 0px;
@@ -900,7 +909,7 @@
         border-right-style: solid;
     }
 
-    #writing {
+    .writing {
         width: 33.199884%;
         height: 63px;
         margin: 0px;
@@ -913,7 +922,7 @@
         border-right-style: solid;
     }
 
-    #products {
+    .products {
         width: 33.199884%;
         height: 63px;
         margin: 0px;
@@ -923,7 +932,7 @@
         border-bottom-color: rgb(0, 0, 0);
     }
 
-    #media {
+    .media {
         margin: 0px;
         clear: none;
         width: 33.199884%;
@@ -934,7 +943,7 @@
         border-right-color: rgb(0, 0, 0);
     }
 
-    #accolades {
+    .accolades {
         width: 33.199884%;
         height: 63px;
         margin: 0px;
@@ -942,7 +951,7 @@
         float: left;
     }
 
-    #programs {
+    .programs {
         margin: 0px;
         width: 33.199884%;
         height: 63px;
@@ -1140,21 +1149,21 @@
         height: 255px;
     }
 
-    #media {
+    .media {
         margin: 0px;
         clear: left;
         width: 50%;
         height: 63px;
     }
 
-    #accolades {
+    .accolades {
         margin: 0px;
         clear: none;
         width: 50%;
         height: 63px;
     }
 
-    #programs {
+    .programs {
         margin: 0px;
         clear: none;
         width: 50%;
@@ -1166,7 +1175,7 @@
         border-bottom-style: solid;
     }
 
-    #products {
+    .products {
         margin: 0px;
         clear: left;
         width: 50%;
@@ -1176,12 +1185,12 @@
         border-right-style: solid;
     }
 
-    #about {
+    .about {
         width: 50%;
         height: 63px;
     }
 
-    #writing {
+    .writing {
         margin: 0px;
         clear: none;
         width: 50%;
