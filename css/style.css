@@ -441,6 +441,7 @@
     border-top-style: solid;
     padding-top: 5px;
     margin-right: 0%;
+    color: rgb(182, 182, 182);
 }
 
 #subSection21 {
@@ -519,6 +520,11 @@
 #subSection21:hover {
     color: rgb(0, 0, 0);
 }
+
+#subSection31:hover {
+    color: rgb(0, 0, 0);
+}
+
 
 #subSection41:hover {
     color: rgb(0, 0, 0);
@@ -723,6 +729,10 @@
     margin-right: 6.135204%;
 }
 
+#principle-content img {
+    width: 100%;
+}
+
 #principle-content p {
     float: none;
     font-size: 1em;
@@ -882,6 +892,40 @@
 
 #subSections .selected {
     color: black;
+}
+
+.printItems figure {
+    float:left;
+    width: 200px;
+    height:310px;
+    margin-bottom: 40px;
+    margin-left:0px;
+    margin-right:34px;
+    padding-top:9px;
+    border-top: 1px solid rgb(149,149,149);
+}
+
+.printItems {
+    padding-left:54px;
+    margin-right:0;
+}
+
+.printItems figure img {
+    width:auto;
+    max-height: 230px;
+    margin-top:18px;
+}
+
+.printItems figure figcaption {
+    font-weight: bold;
+    display:block;
+    clear:both;
+}
+
+.printItems figure figcaption span {
+    font-weight: normal;
+    color: rgb(149,149,149);
+    display:block;
 }
 
 @media only screen and (max-width: 699px) {
