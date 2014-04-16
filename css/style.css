@@ -733,8 +733,13 @@
     margin-right: 6.135204%;
 }
 
+#principle-content.printItems {
+    margin-right: 0;
+    width: 61%;
+}
+
 #principle-content img {
-    width: 100%;
+    width: auto;
 }
 
 #principle-content p {
@@ -914,29 +919,34 @@
 .printItems figure {
     float:left;
     width: 200px;
-    height:310px;
+    height:309px;
     margin-bottom: 40px;
     margin-left:0px;
     margin-right:34px;
     padding-top:9px;
     border-top: 1px solid rgb(149,149,149);
+    position:relative;
 }
 
 .printItems {
-    padding-left:54px;
+    /* padding-left:54px; */
     margin-right:0;
+    padding-right:0;
 }
 
 .printItems figure img {
     width:auto;
     max-height: 230px;
-    margin-top:18px;
+    margin-top:63px;
 }
 
 .printItems figure figcaption {
     font-weight: bold;
+    font-family: warnock-pro;
     display:block;
     clear:both;
+    position: absolute;
+    line-height: 1;
 }
 
 .printItems figure figcaption span {
@@ -1150,16 +1160,35 @@
 
     #principle-content {
         clear: none;
-        margin-top: 18px;
-        margin-left: auto;
+        margin: 18px auto 0 auto;
         float: none;
-        padding-right: 0px;
+        padding: 0px;
         width: 87.596119%;
         position: relative;
         top: 0px;
         left: 0px;
         height: auto;
-        margin-right: auto;
+    }
+
+    #principle-content.printItems {
+         width: 87.596119%;
+         margin: 18px auto 0 auto;
+    }
+
+    .printItems figure {
+        float:left;
+        width: 44%;
+        height:309px;
+        margin-bottom: 40px;
+        margin-left:0px;
+        margin-right:3%;
+        padding-top:9px;
+        border-top: 1px solid rgb(149,149,149);
+        position:relative;
+    }
+
+    .printItems figure:nth-child(even) {
+        float:right;    
     }
 
     #sidebar-content {
