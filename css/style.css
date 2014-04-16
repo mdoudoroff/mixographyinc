@@ -390,11 +390,15 @@
     top: auto;
     left: 0px;
     border-bottom-width: 1px;
-    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(182,182,182);
     border-bottom-style: solid;
     bottom: 0px;
 }
 
+
+#subSections a p {
+    color: rgb(182,182,182);
+}
 
 #subSection41 {
     float: right;
@@ -416,7 +420,6 @@
     border-top-width: 1px;
     border-top-style: solid;
     padding-top: 5px;
-    color: rgb(182, 182, 182);
     margin-right: 0%;
 }
 
@@ -441,7 +444,6 @@
     border-top-style: solid;
     padding-top: 5px;
     margin-right: 0%;
-    color: rgb(182, 182, 182);
 }
 
 #subSection21 {
@@ -465,7 +467,6 @@
     border-top-style: solid;
     padding-top: 5px;
     margin-right: 0%;
-    color: rgb(182, 182, 182);
 }
 
 #subSection11 {
@@ -489,7 +490,6 @@
     border-top-style: solid;
     padding-top: 5px;
     margin-right: 0%;
-    color: rgb(182, 182, 182);
 }
 
 #subSection11.threeItems {margin-top:55px;}
@@ -507,8 +507,8 @@
     clear: none;
     min-height: 0px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    letter-spacing: 0.15em;
-    border-bottom-color: rgb(0, 0, 0);
+    letter-spacing: 0.1em;
+    border-bottom-color: rgb(182,182,182);
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
@@ -541,13 +541,23 @@
     display: none;
 }
 
-#sectionTitle:hover {
-    color: rgb(0, 0, 0);
+#nav-concise p {
+    color: rgb(182,182,182);
 }
 
-#sectionTitle:active {
-    color: rgb(0, 0, 0);
+#nav-concise a p:hover {
+    color: white;
+    background-color: black
 }
+
+#nav-concise p.selected {
+    color:black;
+}
+
+#nav-concise a p.selected:hover {
+    color:white;
+}
+
 
 #sectionTitle {
     float: left;
@@ -562,11 +572,22 @@
     min-width: 0px;
     letter-spacing: 0.15em;
     padding-left: 1em;
-    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(182,182,182);
     border-bottom-width: 1px;
     border-bottom-style: solid;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
+    color:black;
 }
+
+
+#sectionTitle:hover {
+    color: black;
+}
+
+#sectionTitle:active {
+    color: black;
+}
+
 
 #hamburger:hover {
     color: rgb(255, 255, 255);
@@ -618,7 +639,6 @@
     min-height: 45px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     padding-left: 1em;
-    color: rgb(182, 182, 182);
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -642,7 +662,6 @@
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     padding-left: 1em;
     margin-right: 0%;
-    color: rgb(182, 182, 182);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: rgb(0, 0, 0);
@@ -689,7 +708,6 @@
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     padding-left: 1em;
     margin-right: 0%;
-    color: rgb(182, 182, 182);
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(0, 0, 0);
@@ -699,20 +717,6 @@
     overflow: visible;
 }
 
-#subSection2:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-}
-
-#subSection4:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-}
-
-#subSection1:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-}
 
 #principle-content {
     float: right;
@@ -764,6 +768,15 @@
     width: 28.667092%;
 }
 
+#sidebar-content p {
+    text-align: right;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: warnock-pro;
+    margin-bottom: 0px;
+    margin-bottom: 1em;
+}
+
 #spacer {
     float: left;
     height: 123px;
@@ -781,10 +794,14 @@
     margin-left: 0%;
     margin-top: 0px;
     clear: none;
-    width: 99.945791%;
+    width: 100%;
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+}
+
+#toplinks p:last-child {
+    
 }
 
 #supplementalCluster {
@@ -1146,10 +1163,14 @@
     }
 
     #sidebar-content {
-        width: 87.732475%;
-        margin: 0px 0px 0px 42.859375px;
+        width: 87.596119%;
+        margin: 0px 0px 0px 6.131527%;
         clear: both;
         float: none;
+    }
+
+    #sidebar-content p {
+        text-align: left;
     }
 
     #spacer {
@@ -1176,7 +1197,7 @@
     }
 
     #toplinks {
-        width: 99.944117%;
+        width: 100%;
     }
 
     #instagram {
