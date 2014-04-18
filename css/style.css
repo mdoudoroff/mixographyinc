@@ -731,6 +731,11 @@
     clear: none;
     min-height: 0px;
     margin-right: 6.135204%;
+
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: warnock-pro;
+
 }
 
 #principle-content.printItems {
@@ -744,9 +749,6 @@
 
 #principle-content p {
     float: none;
-    font-size: 1em;
-    line-height: 1.4em;
-    font-family: warnock-pro;
     margin-bottom: 0px;
     margin-bottom: 1em;
 }
@@ -919,7 +921,7 @@
 .printItems figure {
     float:left;
     width: 200px;
-    height:309px;
+    height:327px;
     margin-bottom: 40px;
     margin-left:0px;
     margin-right:34px;
@@ -938,6 +940,7 @@
     width:auto;
     max-height: 230px;
     margin-top:63px;
+    margin-bottom: 9px;
 }
 
 .printItems figure figcaption {
@@ -953,6 +956,19 @@
     font-weight: normal;
     color: rgb(149,149,149);
     display:block;
+}
+
+.purchase {
+    font-size: 0.8em;
+    text-align: left;
+    clear: both;
+    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
+    letter-spacing: 0.1em;
+    color: rgb(149,149,149);
+}
+
+.purchase a:hover {
+    color:black;
 }
 
 @media only screen and (max-width: 699px) {
