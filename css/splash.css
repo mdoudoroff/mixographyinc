@@ -965,7 +965,8 @@
 
 #splashgraphic {
         width: 209px;
-    }
+        margin-top:90px;
+}
 
 @media only screen and (max-width: 699px) {
 
@@ -1249,6 +1250,13 @@
     #twitter {
         height: 19px;
     }
+
+
+    #splashgraphic {
+        width: 209px;
+        margin-top:63px;
+    }
+
 }
 
 @media only screen and (max-width: 397px) {

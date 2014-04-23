@@ -10,7 +10,7 @@
     position: relative;
     float: none;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
 }
 
 #nav {
@@ -228,7 +228,7 @@
     border-top-width: 1px;
     border-top-color: rgb(0, 0, 0);
     border-top-style: solid;
-    position: fixed;
+    position: relative;
     top: auto;
     left: auto;
     right: auto;
@@ -1404,3 +1404,12 @@
     }
 }
 
+@media only screen and (max-height: 1136px) {
+    #fixedfooter {
+        position:fixed;
+    }
+
+    .primaryContainer {
+        padding-bottom: 70px;
+    }
+}
