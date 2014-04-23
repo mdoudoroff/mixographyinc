@@ -592,26 +592,22 @@
 #hamburger:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+    background-image: url('../gfx/hamburger-hover.png');
 }
 
 #hamburger:active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+    background-image: url('../gfx/hamburger-hover.png');
 }
 
 #hamburger {
     float: left;
-    font-size: 1em;
     width: 63px;
     height: 63px;
-    text-align: center;
-    font-weight: 700;
-    line-height: 63px;
     clear: none;
     min-height: 0px;
     min-width: 0px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    letter-spacing: 0.15em;
     position: absolute;
     top: 0px;
     left: auto;
@@ -623,6 +619,8 @@
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    background-image: url('../gfx/hamburger.png');
+    background-size: 63px 63px;
 }
 
 #subSection1 {
