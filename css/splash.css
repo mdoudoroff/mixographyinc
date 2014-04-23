@@ -228,7 +228,7 @@
     border-top-width: 1px;
     border-top-color: rgb(0, 0, 0);
     border-top-style: solid;
-    position: fixed;
+    position: relative;
     top: auto;
     left: auto;
     right: auto;
@@ -239,22 +239,16 @@
 }
 
 #submasthead {
-    float: left;
     font-size: 1.4em;
-    width: 273.453125px;
-    height: auto;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     font-weight: 700;
     line-height: 1em;
     clear: both;
-    min-height: 0px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.1em;
-    position: absolute;
-    top: auto;
-    left: 6.132015%;
-    bottom: 75px;
-    right: auto;
+    position: relative;
+    margin-top:18px;
 }
 
 #calendar_tab {
@@ -969,6 +963,10 @@
     color:black;
 }
 
+#splashgraphic {
+        width: 209px;
+    }
+
 @media only screen and (max-width: 699px) {
 
     #nav {
@@ -977,7 +975,7 @@
 
     #nav-dropdown {
         display: block;
-        height: 192px;
+        height: 133px;
         width: 100%;
         position: fixed;
         margin-left: 0px;
@@ -1128,13 +1126,12 @@
     }
 
     #fixedfooter {
-        display: none;
         width: 100%;
         height: 63px;
         bottom: 0px;
         left: 0%;
         top: auto;
-        position:relative;
+        position:fixed;
     }
 
     #subSection3 {
@@ -1157,7 +1154,7 @@
     }
 
     #submasthead {
-        display: none;
+
     }
 
     #photo {
@@ -1236,7 +1233,7 @@
     }
 
     #supplementalCluster {
-        display: block;
+        display: none;
         width: 310px;
         height: 32.171875px;
     }
@@ -1256,14 +1253,12 @@
 
 @media only screen and (max-width: 397px) {
     #submasthead {
-        visibility: visible;
-        display: none;
     }
 
     #nav-dropdown {
         display: block;
         top: 0;
-        height: 255px;
+        height: 196px;
     }
 
     .media {
@@ -1403,5 +1398,16 @@
     #subSection3 {
         clear: left;
     }
+
+    #splashgraphic {
+        width: 160px;
+        margin-top: 50px;
+        margin-bottom: 18px;
+    }
 }
 
+@media only screen and (max-height: 1136px) {
+    #fixedfooter {
+        position:fixed;
+    }
+}
