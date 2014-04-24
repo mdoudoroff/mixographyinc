@@ -742,6 +742,11 @@
 }
 
 #principle-content img {
+    width: 100%;
+    height: auto;
+}
+
+#principle-content figure img {
     width: auto;
 }
 
