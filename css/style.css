@@ -923,6 +923,10 @@
     color: black;
 }
 
+.accolades-content figure {
+    margin-bottom: 36px;
+}
+
 .printItems figure {
     float:left;
     width: 200px;
@@ -948,7 +952,12 @@
     margin-bottom: 9px;
 }
 
-.printItems figure figcaption {
+.accolades-content figure figcaption {
+    font-weight: bold;
+    font-family: warnock-pro;
+}
+
+.printItems figure figcaption  {
     font-weight: bold;
     font-family: warnock-pro;
     display:block;
@@ -957,7 +966,7 @@
     line-height: 1;
 }
 
-.printItems figure figcaption span {
+.printItems figure figcaption span, .accolades-content figure figcaption span {
     font-weight: normal;
     color: rgb(149,149,149);
     display:block;
