@@ -258,6 +258,7 @@
 }
 
 #calendar_tab {
+    display:none; /* disabled */
     float: right;
     font-size: 1em;
     width: 134px;
@@ -349,6 +350,7 @@
 }
 
 #calendar1 {
+    display: none; /* disabled */
     float: right;
     font-size: 1em;
     width: 40.861998%;
@@ -502,7 +504,7 @@
     height: auto;
     text-align: left;
     font-weight: 700;
-    line-height: 1.3em;
+    line-height: 1em;
     margin: 92px 0px 0px;
     clear: none;
     min-height: 0px;
@@ -511,6 +513,12 @@
     border-bottom-color: rgb(182,182,182);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    display:block;
+    padding-bottom: 6px;
+
+    position: absolute;
+    bottom:0;
+    right:0;
 }
 
 #subSection11:hover {
@@ -886,6 +894,7 @@
 }
 
 #calendar {
+    display: none; /* disabled */
     float: right;
     font-size: 1em;
     width: 40.861998%;
@@ -1085,6 +1094,7 @@ span.placeholder-text {
     }
 
     #calendar1 {
+        display: none; /* disabled */
         visibility: visible;
         margin-right: 0.75px;
         margin-top: 0px;
@@ -1092,6 +1102,7 @@ span.placeholder-text {
     }
 
     #calendar_tab {
+        display: none; /* disabled */
         visibility: hidden;
     }
 
@@ -1118,6 +1129,9 @@ span.placeholder-text {
         height: auto;
         width: 87.732475%;
         float: left;
+
+        position: relative;
+
     }
 
     #sectionTitle {
@@ -1259,6 +1273,7 @@ span.placeholder-text {
     }
 
     #calendar {
+        display: none; /* disabled */
         visibility: visible;
         margin-right: 0.75px;
         margin-top: 0px;
@@ -1353,6 +1368,7 @@ span.placeholder-text {
     }
 
     #calendar_tab {
+        display: none; /* disabled */
         width: 134px;
         height: 45px;
     }
@@ -1412,6 +1428,7 @@ span.placeholder-text {
     }
 
     #calendar1 {
+        display: none; /* disabled */
         margin-right: 1.75px;
         margin-top: 0px;
         clear: none;
@@ -1422,6 +1439,7 @@ span.placeholder-text {
     }
 
     #calendar {
+        display: none; /* disabled */
         margin-right: 1.75px;
         margin-top: 0px;
         clear: none;
