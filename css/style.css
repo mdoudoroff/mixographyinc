@@ -27,9 +27,6 @@
     border-top-color: rgb(0, 0, 0);
     border-top-width: 6px;
     border-top-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(0, 0, 0);
-    border-bottom-style: solid;
     min-width: 0px;
     max-width: 980px;
     position: fixed;
@@ -401,6 +398,7 @@
     border-bottom-color: rgb(182,182,182);
     border-bottom-style: solid;
     bottom: 0px;
+    padding:0;
 }
 
 
@@ -408,16 +406,17 @@
     color: rgb(182,182,182);
 }
 
-#subSection41 {
+#subSection41, #subSection31, #subSection21, #subSection11 {
     float: right;
     font-size: 0.8em;
     width: 218.94px;
-    height: auto;
+    height: 24px;
     text-align: right;
     font-weight: 700;
-    line-height: 1em;
     margin-left: 0px;
     margin-top: 6px;
+    margin-top: 0;
+    margin-bottom:0;
     clear: both;
     min-height: 18px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
@@ -427,79 +426,16 @@
     border-top-color: rgb(182, 182, 182);
     border-top-width: 1px;
     border-top-style: solid;
-    padding-top: 5px;
+    padding-top: 1px;
     margin-right: 0%;
+    display:block;
 }
 
-#subSection31 {
-    float: right;
-    font-size: 0.8em;
-    width: 218.94px;
-    height: auto;
-    text-align: right;
-    font-weight: 700;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 6px;
-    clear: both;
-    min-height: 18px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    letter-spacing: 0.15em;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-    border-top-color: rgb(182, 182, 182);
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding-top: 5px;
-    margin-right: 0%;
-}
 
-#subSection21 {
-    float: right;
-    font-size: 0.8em;
-    width: 218.94px;
-    height: auto;
-    text-align: right;
-    font-weight: 700;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 6px;
-    clear: both;
-    min-height: 18px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    letter-spacing: 0.15em;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-    border-top-color: rgb(182, 182, 182);
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding-top: 5px;
-    margin-right: 0%;
-}
 
 #subSection11 {
-    float: right;
-    font-size: 0.8em;
-    width: 218.94px;
-    height: auto;
-    text-align: right;
-    font-weight: 700;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 31px;
-    clear: none;
-    min-height: 18px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    letter-spacing: 0.15em;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-    border-top-color: rgb(182, 182, 182);
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding-top: 5px;
-    margin-right: 0%;
+    margin-top: 33px;
 }
-
 #subSection11.threeItems {margin-top:55px;}
 #subSection11.twoItems {margin-top:79px;}
 
