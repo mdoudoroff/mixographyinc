@@ -1265,9 +1265,6 @@ span.placeholder-text {
         margin: 0px;
         clear: both;
         height: 63px;
-        border-right-color: rgb(0, 0, 0);
-        border-right-width: 1px;
-        border-right-style: solid;
     }
 
     #hamburger {
