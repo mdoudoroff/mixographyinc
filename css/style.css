@@ -410,15 +410,11 @@
     float: right;
     font-size: 0.8em;
     width: 218.94px;
-    height: 24px;
+    height: 18px;
     text-align: right;
     font-weight: 700;
-    margin-left: 0px;
-    margin-top: 6px;
-    margin-top: 0;
-    margin-bottom:0;
+    margin: 6px 0 0 0;
     clear: both;
-    min-height: 18px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.15em;
     border-bottom-width: 0px;
@@ -426,9 +422,8 @@
     border-top-color: rgb(182, 182, 182);
     border-top-width: 1px;
     border-top-style: solid;
-    padding-top: 1px;
+    padding: 0;
     margin-right: 0%;
-    display:block;
 }
 
 
@@ -436,8 +431,8 @@
 #subSection11 {
     margin-top: 33px;
 }
-#subSection11.threeItems {margin-top:55px;}
-#subSection11.twoItems {margin-top:79px;}
+#subSection11.threeItems {margin-top:57px;}
+#subSection11.twoItems {margin-top:82px;}
 
 #text {
     float: right;
