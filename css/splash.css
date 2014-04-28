@@ -21,9 +21,6 @@
     border-top-color: rgb(0, 0, 0);
     border-top-width: 6px;
     border-top-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(0, 0, 0);
-    border-bottom-style: solid;
     min-width: 0px;
     max-width: 980px;
     position: fixed;
