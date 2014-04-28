@@ -1,4 +1,8 @@
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+ }
+
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -512,7 +516,7 @@
     text-align: left;
     line-height: 63px;
     margin: 0px;
-    clear: none;
+    clear: both;
     min-height: 0px;
     min-width: 0px;
     letter-spacing: 0.15em;
@@ -564,101 +568,37 @@
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    border-right: none;
     background-image: url('../gfx/hamburger.png');
     background-size: 63px 63px;
 }
 
-#subSection1 {
+#subSection1, #subSection2, #subSection3, #subSection4 {
+
+    box-sizing: border-box;
+
     float: left;
+    width: 50%;
     font-size: 1em;
-    width: 25%;
     height: auto;
     text-align: left;
     font-weight: 700;
     line-height: 2.7em;
     margin-left: 0%;
     margin-top: 0px;
-    clear: none;
-    min-height: 45px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    padding-left: 1em;
-    border-bottom-color: rgb(0, 0, 0);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
+
+    padding: 0 0 0 1em;
     border-right-color: rgb(0, 0, 0);
     border-right-width: 1px;
     border-right-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
 }
 
-#subSection2 {
-    float: left;
-    font-size: 1em;
-    width: 25%;
-    height: auto;
-    text-align: left;
-    font-weight: 700;
-    line-height: 2.7em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 45px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    padding-left: 1em;
-    margin-right: 0%;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(0, 0, 0);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: rgb(0, 0, 0);
-}
 
-#subSection3 {
-    float: left;
-    font-size: 1em;
-    width: 25%;
-    height: auto;
-    text-align: left;
-    font-weight: 700;
-    line-height: 2.7em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 45px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    padding-left: 1em;
-    margin-right: 0%;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(0, 0, 0);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: rgb(0, 0, 0);
-}
-
-#subSection4 {
-    float: left;
-    font-size: 1em;
-    width: 25%;
-    height: auto;
-    text-align: left;
-    font-weight: 700;
-    line-height: 2.7em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 45px;
-    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
-    padding-left: 1em;
-    margin-right: 0%;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(0, 0, 0);
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-right-color: rgb(0, 0, 0);
-    overflow: visible;
-}
 
 
 #principle-content {
@@ -958,7 +898,7 @@ span.placeholder-text {
         margin-left: 0px;
         margin-top: 0px;
         z-index: 1000;
-        top:-192px;
+        top:-202px;
     }
 
     .about {
@@ -1142,6 +1082,7 @@ span.placeholder-text {
     #subSection2 {
         width: 50%;
         border-right:none;
+        float:right;
     }
 
     #submasthead {
@@ -1332,9 +1273,6 @@ span.placeholder-text {
     #hamburger {
         clear: both;
         height: 63px;
-        border-right-color: rgb(0, 0, 0);
-        border-right-width: 1px;
-        border-right-style: solid;
     }
 
     #text {

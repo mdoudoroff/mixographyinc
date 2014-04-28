@@ -1,4 +1,8 @@
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+ }
+
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -1372,9 +1376,6 @@
     #hamburger {
         clear: both;
         height: 63px;
-        border-right-color: rgb(0, 0, 0);
-        border-right-width: 1px;
-        border-right-style: solid;
     }
 
     #text {
