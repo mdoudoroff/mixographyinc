@@ -239,17 +239,35 @@
 }
 
 #submasthead {
+    float: left;
     font-size: 1.4em;
-    width: 100%;
+    width: 273.453125px;
+    height: auto;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1em;
+    clear: both;
+    min-height: 0px;
+    font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: auto;
+    left: 6.132015%;
+    bottom: 75px;
+    right: auto;
+}
+
+#submasthead2{
+    display:none;
+    font-size: 1.4em;
     text-align: center;
     font-weight: 700;
     line-height: 1em;
     clear: both;
+    min-height: 0px;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.1em;
-    position: relative;
-    margin-top:18px;
-}
+    }
 
 #calendar_tab {
     float: right;
@@ -272,6 +290,7 @@
     left: auto;
     right: 6.135204%;
     bottom: 63px;
+    display:none;
 }
 
 #contact1:hover {
@@ -357,6 +376,7 @@
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.15em;
     visibility: hidden;
+    display:none;
 }
 
 .about:focus {
@@ -887,6 +907,7 @@
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.15em;
     visibility: visible;
+    display:none;
 }
 
 #shadow {
@@ -918,7 +939,7 @@
     margin-left:0px;
     margin-right:34px;
     padding-top:9px;
-    border-top: 1px solid rgb(149,149,149);
+    border-top: 1px solid rgb(182,182,182);
     position:relative;
 }
 
@@ -946,7 +967,7 @@
 
 .printItems figure figcaption span {
     font-weight: normal;
-    color: rgb(149,149,149);
+    color: rgb(182,182,182);
     display:block;
 }
 
@@ -956,7 +977,7 @@
     clear: both;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.1em;
-    color: rgb(149,149,149);
+    color: rgb(182,182,182);
 }
 
 .purchase a:hover {
@@ -1056,9 +1077,11 @@
         margin-right: 0.75px;
         margin-top: 0px;
         clear: none;
+        display:none;
     }
 
     #calendar_tab {
+        display:none;
         visibility: hidden;
     }
 
@@ -1197,7 +1220,7 @@
         margin-left:0px;
         margin-right:3%;
         padding-top:9px;
-        border-top: 1px solid rgb(149,149,149);
+        border-top: 1px solid rgb(182,182,182);
         position:relative;
     }
 
@@ -1231,6 +1254,7 @@
         margin-top: 0px;
         clear: none;
         width: 40.861895%;
+        display:none;
     }
 
     #supplementalCluster {
@@ -1261,6 +1285,11 @@
 
 @media only screen and (max-width: 397px) {
     #submasthead {
+        display:none;
+    }
+
+    #submasthead2{
+        display:block;
     }
 
     #nav-dropdown {
@@ -1327,6 +1356,7 @@
     #calendar_tab {
         width: 134px;
         height: 45px;
+        display:none;
     }
 
     #footerCluster {

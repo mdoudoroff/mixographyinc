@@ -11,6 +11,12 @@
     float: none;
     padding-top: 70px;
     padding-bottom: 0px;
+
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: warnock-pro;
+
+
 }
 
 #nav {
@@ -790,9 +796,6 @@
 
 #sidebar-content p {
     text-align: right;
-    font-size: 1em;
-    line-height: 1.4em;
-    font-family: warnock-pro;
     margin-bottom: 0px;
     margin-bottom: 1em;
 }
@@ -944,7 +947,7 @@
     margin-left:0px;
     margin-right:34px;
     padding-top:9px;
-    border-top: 1px solid rgb(149,149,149);
+    border-top: 1px solid rgb(182,182,182);
     position:relative;
 }
 
@@ -977,7 +980,7 @@
 
 .printItems figure figcaption span, .accolades-content figure figcaption span {
     font-weight: normal;
-    color: rgb(149,149,149);
+    color: rgb(182,182,182);
     display:block;
 }
 
@@ -987,7 +990,7 @@
     clear: both;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.1em;
-    color: rgb(149,149,149);
+    color: rgb(182,182,182);
 }
 
 .purchase a:hover {
@@ -995,7 +998,7 @@
 }
 
 #principle-content p.videotitle {
-    color: rgb(149,149,149);
+    color: rgb(182,182,182);
     margin-bottom: 45px;
 }
 
@@ -1244,7 +1247,7 @@ span.placeholder-text {
         margin-left:0px;
         margin-right:3%;
         padding-top:9px;
-        border-top: 1px solid rgb(149,149,149);
+        border-top: 1px solid rgb(182,182,182);
         position:relative;
     }
 
