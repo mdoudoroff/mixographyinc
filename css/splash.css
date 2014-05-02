@@ -985,9 +985,21 @@
     color:black;
 }
 
+
+#splashcontainer {
+  bottom: 0;
+  height: 300px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px; 
+  text-align:center;
+}
+
 #splashgraphic {
         width: 209px;
-        margin-top:90px;
 }
 
 @media only screen and (max-width: 699px) {
@@ -1279,7 +1291,6 @@
 
     #splashgraphic {
         width: 209px;
-        margin-top:63px;
     }
 
 }
@@ -1435,9 +1446,14 @@
         clear: left;
     }
 
+
+    #splashcontainer {
+        height: 170px;
+        padding-top:66px;
+    }
+
     #splashgraphic {
         width: 90px;
-        margin-top: 50px;
         margin-bottom: 9px;
     }
 }
