@@ -879,6 +879,7 @@ img.video-placeholder {
 
 span.placeholder-text {
     position: absolute; line-height: 50%; width: 100%; text-align:center; display:block;
+    color:white;font-weight:bold;text-shadow: 0 0 4px #000000;
 }
 
 /* responsive YouTube embed */
