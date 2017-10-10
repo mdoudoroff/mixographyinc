@@ -576,7 +576,7 @@
 #subSection1, #subSection2, #subSection3, #subSection4 {
 
     box-sizing: border-box;
-
+    white-space: nowrap;
     float: left;
     width: 50%;
     font-size: 1em;
@@ -636,6 +636,12 @@
     width: auto;
     margin-bottom: 9px;
 }
+
+#principle-content figure img.wideimage, #principle-content img.wideimage {
+    width: 100%;
+    height: auto;
+}
+
 
 #principle-content p {
     float: none;
@@ -835,6 +841,7 @@
     margin-bottom: 9px;
 }
 
+
 .accolades-content figure figcaption {
     font-weight: bold;
     font-family: warnock-pro;
@@ -884,6 +891,8 @@ span.placeholder-text {
 
 /* responsive YouTube embed */
 .embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 9px;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
 
 @media only screen and (max-width: 699px) {
 
@@ -1119,6 +1128,9 @@ span.placeholder-text {
     #principle-content.printItems {
          width: 87.596119%;
          margin: 18px auto 0 auto;
+
+
+
     }
 
     .printItems figure {
@@ -1328,7 +1340,7 @@ span.placeholder-text {
     }
 }
 
-@media only screen and (min-height: 500px) {
+@media only screen and (max-width: 500px) {
     #fixedfooter {
         position:fixed;
     }
@@ -1336,4 +1348,38 @@ span.placeholder-text {
     .primaryContainer {
         padding-bottom: 70px;
     }
+
+
+    .printItems figure {
+        float:none;
+        display: block;
+        width: 100%;
+        height:auto;
+        margin-bottom: 18px;
+        margin-left:0px;
+        margin-right:34px;
+        padding-top:9px;
+        border-top: 1px solid rgb(182,182,182);
+        position:relative;
+    }
+
+    .printItems figure img {
+        float: none;
+        // width:auto;
+        // max-height: 230px;
+        margin-top:36px;
+        margin-bottom: 9px;
+    }
+
+
+    #principle-content figure img.wideimage {
+        width: 80%;
+        max-height: none;
+    }
+
+    .printItems figure:nth-child(even) {
+        float:none;    
+    }
+
 }
+
