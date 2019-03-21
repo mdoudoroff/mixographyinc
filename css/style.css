@@ -1056,6 +1056,10 @@ span.placeholder-text {
         height:107px;
     }
 
+    #nav-concise.threerows {
+        height:195px;
+    }
+
     #nav-concise.norows {
         height:63px;
     }
