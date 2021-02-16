@@ -381,7 +381,7 @@
 
 #subnav {
     float: left;
-    height: 149px;
+    height: 159px;
     margin: 0px 0px 2em;
     clear: none;
     width: 100%;
@@ -392,7 +392,7 @@
 
 #subSections {
     float: none;
-    height: 133px;
+    height: 152px;
     clear: none;
     width: 34.799107%;
     position: absolute;
@@ -410,7 +410,7 @@
     color: rgb(182,182,182);
 }
 
-#subSection51,#subSection41, #subSection31, #subSection21, #subSection11 {
+#subSection61, #subSection51,#subSection41, #subSection31, #subSection21, #subSection11 {
     float: right;
     font-size: 0.8em;
     width: 218.94px;
@@ -437,8 +437,8 @@
 }
 #subSection11.fiveItems {margin-top:7px;}
 #subSection11.fourItems {margin-top:32px;}
-#subSection11.threeItems {margin-top:57px;}
-#subSection11.twoItems {margin-top:82px;}
+#subSection11.threeItems {margin-top:75px;}
+#subSection11.twoItems {margin-top:99px;}
 
 #text {
     float: right;
