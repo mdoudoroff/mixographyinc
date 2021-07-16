@@ -405,7 +405,6 @@
     padding:0;
 }
 
-
 #subSections a p {
     color: rgb(182,182,182);
 }
@@ -435,7 +434,7 @@
 #subSection11 {
     margin-top: 8px;
 }
-#subSection11.fiveItems {margin-top:7px;}
+#subSection11.fiveItems {margin-top:27px;}
 #subSection11.fourItems {margin-top:32px;}
 #subSection11.threeItems {margin-top:75px;}
 #subSection11.twoItems {margin-top:99px;}
@@ -1375,8 +1374,6 @@ span.placeholder-text {
 
     .printItems figure img {
         float: none;
-        // width:auto;
-        // max-height: 230px;
         margin-top:36px;
         margin-bottom: 9px;
     }
