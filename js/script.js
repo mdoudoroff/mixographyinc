@@ -19,8 +19,6 @@ jQuery(document).ready(function() {
 
 		e.preventDefault();
 
-		console.log('boop!');
-
 		$("#nav-dropdown").animate({
 			top: 0
 		}, 300, function() {
