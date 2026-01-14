@@ -415,6 +415,11 @@
     border-bottom-style: solid;
     bottom: 0px;
     padding:0;
+
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    justify-items: end;
 }
 
 #subSections a p {
@@ -428,7 +433,8 @@
     height: 18px;
     text-align: right;
     font-weight: 700;
-    margin: 6px 0 0 0;
+    /*margin: 6px 0 0 0;*/
+    margin-bottom: 6px;
     clear: both;
     font-family: 'Gotham A', 'Gotham B'; font-weight: 700; font-style: normal;
     letter-spacing: 0.15em;
@@ -442,7 +448,7 @@
 }
 
 
-
+/*
 #subSection11 {
     margin-top: 8px;
 }
@@ -450,6 +456,7 @@
 #subSection11.fourItems {margin-top:32px;}
 #subSection11.threeItems {margin-top:75px;}
 #subSection11.twoItems {margin-top:99px;}
+*/
 
 #text {
     float: right;
